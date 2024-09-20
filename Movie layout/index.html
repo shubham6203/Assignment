@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); 
+            gap: 10px; 
+            max-width: 1150px; 
+            margin: auto;
+            padding: 10px; 
+            box-sizing: border-box; 
+        }
+        .box, .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            box-sizing: border-box; 
+        }
+        .box {
+            height: auto; 
+            width: 100%;
+            max-width: 350px; 
+        }
+        .item {
+            height: auto; 
+            width: 100%; 
+            max-width: 350px;
+        }
+        .image {
+            height: 250px; 
+            width: 250px;  
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden; 
+            margin-bottom: 10px;
+        }
+        .image img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover; 
+        }
+        span{
+            background-color: aqua;
+        }
+        .stranger {
+            height: 500px;
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="image">
+                <img src="assets/g8geig1onoh81 (1).jpg" alt="stranger picture">
+            </div>
+            <h2>Doctor Strange 2</h2>
+            <p>Rating:- 4.5</p>
+            <p><span>Book now</span></p>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="assets/Bhool-Bhulaiyaa-2-Teaser-SNS.jpg" alt="Bhoolya 2">
+            </div>
+            <h2>Bhool Bhulaiyaa 2</h2>
+            <p>Rating:- 4.5</p>
+            <p><span>Book now</span></p>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="assets/MV5BMzdlNGE5MGYtMzA0Ny00ZmVmLThkOTctMjRmNGI2NmQ4ZGQ2XkEyXkFqcGdeQXVyNTkzNDQ4ODc@._V1_.jpg" alt="jordarr photo">
+            </div>
+            <h2>Jayeshbhai Jordaar</h2>
+            <p>Rating:- 4.5</p>
+            <p><span>Book now</span></p>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="assets/JurassicWorldDominion_Poster.jpeg" alt="jurassic photo">
+            </div>
+            <h2>Jurassic World</h2>
+            <p>Rating:- 4.5</p>
+            <p><span>Book now</span></p>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="assets/images.jpg" alt="kgf photo">
+            </div>
+            <h2>KGF2</h2>
+            <p>Rating:- 4.5</p>
+            <p><span>Book now</span></p>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="assets/ncXklBeNi7X7OETqmDVEgaf8ItQ.jpg" alt="rrr photo">
+            </div>
+            <h2>RRR</h2>
+            <p>Rating:- 4.5</p>
+            <p><span>Book now</span></p>
+        </div>
+        <div class="item">
+            <div class="stranger">
+                <img src="assets/g8geig1onoh81 (1).jpg" alt="marvel photo">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
